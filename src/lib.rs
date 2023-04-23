@@ -1,3 +1,5 @@
+//！ PipeViewer library documentation hooray!
+
 pub mod args;
 pub mod read;
 pub mod stats;
