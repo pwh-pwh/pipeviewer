@@ -56,6 +56,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "coderpwh_pipeviewer"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "crossbeam",
+ "crossterm",
+]
+
+[[package]]
 name = "crossbeam"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -223,15 +232,6 @@ dependencies = [
  "redox_syscall",
  "smallvec",
  "windows-sys",
-]
-
-[[package]]
-name = "pipeviewer"
-version = "0.1.0"
-dependencies = [
- "clap",
- "crossbeam",
- "crossterm",
 ]
 
 [[package]]

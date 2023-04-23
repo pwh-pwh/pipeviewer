@@ -1,5 +1,5 @@
 [package]
-name = "pipeviewer"
+name = "coderpwh_pipeviewer"
 version = "0.1.0"
 edition = "2021"
 description = "coderpwh demo pipeviewer project"
