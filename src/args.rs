@@ -1,14 +1,14 @@
-use std::env;
 use clap::{App, Arg};
+use std::env;
 
 pub struct Args {
-    pub infile:String,
-    pub outfile:String,
-    pub silent :bool
+    pub infile: String,
+    pub outfile: String,
+    pub silent: bool,
 }
 
 impl Args {
-    pub fn parse() ->Self{
+    pub fn parse() -> Self {
         let matches = App::new("pipeviewer")
             .arg(Arg::with_name("infile").help("Read from a file instead of stdin"))
             .arg(
@@ -30,7 +30,7 @@ impl Args {
         Self {
             infile,
             outfile,
-            silent
+            silent,
         }
     }
 }
